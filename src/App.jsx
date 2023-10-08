@@ -66,6 +66,12 @@ function App() {
     getCards();
   }, []);
 
+  useEffect(() => {
+    if (bestScore <= score) {
+      setBestScore(score);
+    }
+  }, [score]);
+
   return (
     <>
       <div className="screen">
