@@ -3,7 +3,7 @@ body {
   color: #d4bf79;
   margin: 0;
   font-family: "SuperiaRegular";
-  background-image: url("src/assets/bg.png");
+  background-image: url("/bg.png");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -141,7 +141,7 @@ button {
   border: 10px solid black;
   color: black;
   border-radius: 10px;
-  background-image: url("src/assets/resbg.png");
+  background-image: url("/resbg.png");
   background-size: cover;
 
   animation-name: appearing;
